@@ -1,8 +1,8 @@
 import antfu from "@antfu/eslint-config";
 
 export default antfu({
-  formatters: false,
-  astro: true,
+  formatters: true,
+  // astro: true,
   stylistic: {
     quotes: "double",
     semi: true,
