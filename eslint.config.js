@@ -1,9 +1,10 @@
 import antfu from "@antfu/eslint-config";
 
 export default antfu({
-  formatters: true,
+  formatters: false,
+  astro: true,
   stylistic: {
-    quotes: "double", // As the Chinese teacher said, single quotes should be inside double quotes.(
+    quotes: "double",
     semi: true,
   },
   rules: {
