@@ -15,5 +15,7 @@
     },
     "strict": true, // 或 "target": "ES6"
     "esModuleInterop": true
-  }
+  },
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"]
 }
